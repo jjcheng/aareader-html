@@ -1,0 +1,124 @@
+﻿body {
+    /*font-family: 'Microsoft YaHei', -apple-system, system;*/
+    font-family: system,-apple-system,"Helvetica Neue","Lucida Grande",sans-serif;
+}
+html {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+.navigation .navbar .navbar-brand img {
+    max-height: 70px;
+}
+.navigation .navbar #mainmenu ul .nav-item .nav-link {
+    padding-left: 20px;
+    padding-right:20px;
+}
+#howitwork {
+    background-color: #FFFFFF;
+}
+.counter-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact{
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.footer {
+    background-color: #FFFFFF;
+    padding:0;
+}
+.footer .copy-bg {
+    margin-top: 0;
+}
+.slick-next:before, .slick-prev:before {
+    color: #3498db;
+}
+.menu {
+    font-size: 28px;
+    color: #999999;
+}
+.navigation .navbar #mainmenu ul .nav-item .nav-link:hover::before, .navigation .navbar #mainmenu ul .nav-item .nav-link.active::before, .mybtn2, .howitwork .right-area .item .content .left-content .icon, .counter-area .fun-box .icon, .team .team-member .member-data, .team .owl-controls .owl-nav div.owl-next::after, .team .owl-controls .owl-nav div.owl-prev::after, .mybtn1, .contact .info-contact li .info-box .left .icon, .bottomtotop i {
+    background-color: #3498db;
+    background-image: none;
+}
+.team{
+    padding-bottom: 100px;
+}
+.video{
+    background-color: #FFFFFF;
+}
+.mybtn2 i  {
+    font-size: 20px;
+    margin-left:0;
+}
+.cfs_response {
+    margin-top: 20px;
+}
+
+.team, .testimonial-area, .app-screenshot-area, .video, .howitwork, .faq, .get-intuch, .contact, .blog {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.faq .accordion .panel-title{
+    padding-right: 35px;
+}
+input[type=text], textarea, input[type=email] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.info-box.box2 {
+    background-color: #FFFFFF;
+}
+.howitwork .left-area .img::before  {
+    display:none !important;
+    background:none !important;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 575px) {
+    .hero-area{
+        padding-top: 150px;
+    }
+    .howitwork .right-area .item .content .left-content {
+        float: left;
+        width: 75px;
+    }
+
+    .howitwork .right-area .item .content .right-content {
+        float: left;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    /*.howitwork .right-area .item .content .left-content {
+        display: none;
+    }*/
+    .contact .info-contact li .info-box .left{
+        /*display:block;*/
+        float:none;
+        text-align:center;
+        /*width: 100%;*/
+    }
+    .contact .info-contact li .info-box .right {
+        /*display:block;*/
+        float:none;
+        /*width: 100%;*/
+        text-align:center;
+    }
+    .howitwork {
+        padding-bottom: 60px;
+    }
+    .howitwork .right-area .item .content {
+        padding: 18px;
+    }
+}
