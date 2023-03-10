@@ -6,6 +6,9 @@ html {
     -ms-touch-action: manipulation;
     touch-action: manipulation;
 }
+a {
+    color: #0984e3;
+}
 .navigation .navbar .navbar-brand img {
     max-height: 70px;
 }
